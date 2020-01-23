@@ -17,3 +17,9 @@
 const Route = use('Route');
 
 Route.on('/').render('welcome');
+
+Route.get('/test', () => {
+  const User = use('App/Models/User');
+
+  return User.find(1);
+});
