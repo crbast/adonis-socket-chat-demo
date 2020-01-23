@@ -1,31 +1,24 @@
-# Adonis fullstack application
+## Basic chat with [AdonisJS websocket](https://adonisjs.com/docs/4.1/websocket)
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
-
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
 
 ## Setup
 
-Use the adonis command to install the blueprint
-
+1. Clone repository
+2. Install AdonisJS
 ```bash
-adonis new yardstick
+> yarn global add @adonisjs/cli
+```
+4. Configure your `.env`
+3. Install dependencies
+```bash
+> yarn
+```
+3. Run server
+```bash
+> adonis serve --dev
 ```
 
-or manually clone the repo and then run `npm install`.
+## Contribute
+It's open source. 
 
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+**Feel free to contribute**, I'd be happy to.
