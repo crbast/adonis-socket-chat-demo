@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "node ace test",
-    "debug": "node --nolazy --inspect-brk=9229 server.js",
+    "debug": "adonis serve --debug",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
     "coverage": "nyc npm run test",
